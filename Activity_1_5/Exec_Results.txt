@@ -1,0 +1,15 @@
+Guess a magic number between 0 and 99
+
+Enter your guess: 50 Your guess is lower than the number
+
+Enter your guess: 75 Your guess is higher than the number
+
+Enter your guess: 66 Your guess is higher than the number
+
+Enter your guess: 57 Your guess is higher than the number
+
+Enter your guess: 53 Your guess is higher than the number
+
+Enter your guess: 52 Your guess is higher than the number
+
+Enter your guess: 51 Yes, the number is 51
