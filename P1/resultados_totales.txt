@@ -1,0 +1,5 @@
+Enter a, b, c: The equation has two roots: -2.0 and -3.0
+Enter a, b, c, d, e, f: x is 3.0 and y is -1.0
+What is 15 + 47? 15 + 47 = 125 is false
+What is 2 + 2 + 9? False. The correct answer is 13
+Enter r1's center x-, y-coordinates, width, and height: Enter r2's center x-, y-coordinates, width, and height: r2 is inside r1
