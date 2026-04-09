@@ -3,7 +3,6 @@ import java.util.*;
 public class CandyMachine {
     
     static Scanner console = new Scanner(System.in);
-
     public static void showSelection() {
         System.out.println("*** Welcome to Shelly's Candy Shop ***");
         System.out.println("To select an item, enter ");
@@ -25,7 +24,7 @@ public class CandyMachine {
 
             while (coinsRequired > 0) {
                 System.out.print("Please deposit " + coinsRequired + " cents: ");
-                coinsInserted = coinsInserted + console.nextInt(); 
+                coinsInserted = coinsInserted + console.nextInt();
                 coinsRequired = price - coinsInserted;
             }
 
@@ -35,6 +34,36 @@ public class CandyMachine {
             System.out.println("Collect your item at the bottom and enjoy.\n");
         } else {
             System.out.println("Sorry this item is sold out.\n");
+        }
+    }
+    public static void main(String[] args) {
+        CashRegister cashRegister = new CashRegister();
+        Dispenser candy = new Dispenser(100, 50);
+        Dispenser chips = new Dispenser(100, 65);
+        Dispenser gum = new Dispenser(75, 45);
+        Dispenser cookies = new Dispenser(100, 85);
+        int choice;
+        showSelection();
+        choice = console.nextInt();
+        while (choice != 9) {
+            switch (choice) {
+                case 1:
+                    sellProduct(candy, cashRegister);
+                    break;
+                case 2:
+                    sellProduct(chips, cashRegister);
+                    break;
+                case 3:
+                    sellProduct(gum, cashRegister);
+                    break;
+                case 4:
+                    sellProduct(cookies, cashRegister);
+                    break;
+                default:
+                    System.out.println("Invalid Selection");
+            }
+            showSelection();
+            choice = console.nextInt();
         }
     }
 }
