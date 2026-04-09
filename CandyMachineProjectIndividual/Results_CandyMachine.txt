@@ -1,0 +1,57 @@
+*** Welcome to Shelly's Candy Shop ***
+To select an item, enter 
+1 for Candy
+2 for Chips
+3 for Gum
+4 for Cookies
+9 to exit
+Please deposit 50 cents: 
+Collect your item at the bottom and enjoy.
+
+*** Welcome to Shelly's Candy Shop ***
+To select an item, enter 
+1 for Candy
+2 for Chips
+3 for Gum
+4 for Cookies
+9 to exit
+Please deposit 65 cents: Please deposit 15 cents: 
+Collect your item at the bottom and enjoy.
+
+*** Welcome to Shelly's Candy Shop ***
+To select an item, enter 
+1 for Candy
+2 for Chips
+3 for Gum
+4 for Cookies
+9 to exit
+Please deposit 45 cents: 
+Collect your item at the bottom and enjoy.
+
+*** Welcome to Shelly's Candy Shop ***
+To select an item, enter 
+1 for Candy
+2 for Chips
+3 for Gum
+4 for Cookies
+9 to exit
+Please deposit 85 cents: Please deposit 35 cents: Please deposit 15 cents: 
+Collect your item at the bottom and enjoy.
+
+*** Welcome to Shelly's Candy Shop ***
+To select an item, enter 
+1 for Candy
+2 for Chips
+3 for Gum
+4 for Cookies
+9 to exit
+Please deposit 50 cents: 
+Collect your item at the bottom and enjoy.
+
+*** Welcome to Shelly's Candy Shop ***
+To select an item, enter 
+1 for Candy
+2 for Chips
+3 for Gum
+4 for Cookies
+9 to exit
